@@ -6,8 +6,6 @@ Bem-vindo(a) ao repositório das minhas atividades práticas do curso de desenvo
 
 O projeto está dividido em pastas, onde cada uma representa uma atividade específica do curso.
 
----
-
 ### 🚀 Atividade 1: Portfólio Pessoal
 
 O primeiro projeto consiste na criação de um portfólio pessoal estático para apresentar informações, projetos e formas de contato.
@@ -28,7 +26,7 @@ O segundo projeto foca na criação de páginas essenciais para uma loja virtual
 
 ---
 
-### 🔧 () Atividade 3: 
+### 🔧 () Atividade 3
 
 *Em desenvolvimento...*
 
