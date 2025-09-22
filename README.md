@@ -1,12 +1,12 @@
 # CEPEDI - FRONT END
 
-## ATIVIDADE - 1
+## 📝 ATIVIDADE - 1
 
 [PORTIFOLIO PESSOAL](/Atividade.1/)
 
 ![pagina inicial da ativdade 1](/assets/atv.1.png)
 
-## ATIVIDADE - 2
+## 📝 ATIVIDADE - 2
 
 [LOJA - CADASTRO - FALE CONOSCO](/Atividade.2/)
 
