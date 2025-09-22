@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ 
+img{
+    width: 50px;
+    height: auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'montserrat', cursive;
+
+}
+
+body{
+    background-color: #ffdd55;
+    color: #f6f6f6;
+
+}
+
+p{
+    color: #22d4fd;
+}

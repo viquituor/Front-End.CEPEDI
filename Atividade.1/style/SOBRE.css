@@ -1,0 +1,159 @@
+.sobre{
+    height: 100vh;
+    width: 99vw;
+    background-color: #ffdd55;
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card{
+        height: 75svh;
+        width: 75vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #1066e8;
+        box-shadow: 10px 10px 10px -2px #3f3c3c;
+        border-radius: 20px;
+        padding: 2rem;
+        gap: 3rem;
+
+        font-family: 'montserrat';
+
+        img{
+            width: 400px;
+            height: auto;
+            box-shadow: none;
+            animation:ease-, ease-out;
+        }
+
+        img:hover{
+            box-shadow: 10px 10px 0px -1px #000000,
+                        20px 20px 30px -1px #3f3c3c;
+            transform:scale(1.01);
+        }
+.texto-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+
+
+            h1{
+            font-size: 3rem;
+            font-weight: 800;
+        }
+            h2{
+            font-size: 2rem;
+            font-weight: 300;
+        }
+            p{
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+}
+        
+     .bt{
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        gap: 2rem;
+        padding-top: 1rem;
+    
+        font-size: 1.3rem;
+        font-family: 'montserrat';
+        font-weight: 200;
+        .mail, .cv{
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            text-align: center;
+            align-content: center;
+            height:60% ;
+            width: 30%;
+            background-color: #000;
+            color: #ffffff;
+            border: solid 2px #ffdd55;
+            border-radius: 200px;
+            box-shadow: 10px 10px 0px -1px,
+                        20px 20px 30px -1px #3f3c3c;
+
+            img{
+               display: none;
+            }
+
+        }
+     .mail:hover, .cv:hover{
+        height:65% ;
+        width: 35%;
+        img{
+                display: block;
+                height: 30px;
+                width: auto;
+            }
+        background-color: #ffffff;
+        color: #000000;           
+         box-shadow: 10px 10px 0px -1px #000000,
+                     20px 20px 30px -1px #3f3c3c;
+     }
+     
+    }
+}
+}
+
+@media (max-width: 768px) {
+
+    .sobre{
+        width: 100svw;
+        height:auto;
+        padding-bottom: 2rem;
+
+        .card{
+            padding-top: 2rem;
+            margin: 0;
+            display: flex;
+            gap: 3rem;
+            width: 80svw;
+            height: fit-content;
+            flex-direction: column;
+            justify-content: space-around;
+            img{
+                display: none;
+             /* Remove do fluxo do layout */
+            }
+
+
+            .texto-sobre{
+             
+
+                width: 70svw;
+                h1{
+                    font-size: 2.7rem;
+
+                }
+                h2{
+                    font-size: 1.3rem;
+                }
+                p{
+                    font-size: 1.1rem ;
+                    
+                }
+
+            }
+            
+            .bt{
+                height: 15svh;
+                width: 90svw;
+                font-size: 0.7rem;
+            }
+        }
+}
+
+}

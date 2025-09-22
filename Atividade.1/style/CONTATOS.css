@@ -1,0 +1,40 @@
+footer{
+    width: 100% ;
+    height: 30vh;
+    border-radius: 40px 40px  0 0;
+    background-color: #45aa99;
+    color: #ffdd55;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    .ctimg{
+        height: 5vh;
+        display: flex;
+        gap: 70px;
+        img{
+            width: 50px;
+            height: auto;
+            
+        }
+        img:hover{
+            width: 45px;
+            height: auto;
+            
+}
+     }
+
+     .text{
+        text-align: center;
+        width: 50vw;
+        color: #ffdd55;
+     }
+     .footer-texto{
+        p{
+        color: tomato;
+        }
+        img{
+            width: 20px;
+        }
+     }
+}

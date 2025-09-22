@@ -1,0 +1,111 @@
+/*FONTES*/
+
+.megrim-regular {
+    font-family: "Megrim", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+body {
+    z-index: 1;
+    flex-direction: column;
+    width: 99vw;
+}
+
+nav{
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color: #ffdd55;
+    border-bottom-right-radius: 36px;
+    border-bottom-left-radius: 36px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    gap: 1rem;
+    padding-left: 1rem;
+
+    .logo{
+
+        width: 3rem;
+        background-color: #1066e8;
+        border-radius: 100px;
+        box-shadow: 8px 5px 0px -2px rgba(255,255,255,1);
+
+        p:hover{
+            background-color: #00c6ae;
+
+        }
+  
+        p{  
+            font-size: 35px;
+            font-family: 'megrim';
+            font-weight: 700;
+            text-align: center;
+            align-content: center;
+            border-radius: 100px;
+            border: solid 2px #050640;
+            color: #000000;
+          
+        }
+    }
+
+    .pages{
+        font-family:Verdana, sans-serif;
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 1.8rem;
+
+        a{
+            color: #1066e8;
+            font-weight: 700;
+            font-size: 25px;
+            padding: 0.5rem;
+        }
+        a:hover{
+          
+            border: solid 3px #050640;
+            border-radius: 20px;
+            box-shadow: 10px 10px 0px -3px #ffffff;
+        }
+    }
+    
+}
+
+    @media (max-width: 768px) {
+        body{
+            width: 99svw;
+            overflow-x: hidden;
+            box-sizing: border-box;
+        }
+
+        main{
+            height: auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav{
+            width: 100svw;
+            flex-direction: column;
+            height: 10vh;
+            gap: 0rem;
+            padding: 0;
+           
+
+            .pages{
+                font-size:0.8rem ;
+                flex-wrap: wrap;
+                padding: 0;
+
+                
+            }
+        }
+    }
