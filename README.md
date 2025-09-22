@@ -11,7 +11,7 @@ O projeto está dividido em pastas, onde cada uma representa uma atividade espec
 O primeiro projeto consiste na criação de um portfólio pessoal estático para apresentar informações, projetos e formas de contato.
 
 * **Objetivo:** Praticar a estruturação semântica com HTML e a estilização com CSS, criando múltiplas páginas interligadas.
-* **Acesse o projeto:** [./atividade.1/](./atividade.1)
+* **Acesse o projeto:** [./atividade.1](/atividade.1)
 ![pagina incial da atividade 1](/assets/atv.1.png)
 
 ---
@@ -21,7 +21,7 @@ O primeiro projeto consiste na criação de um portfólio pessoal estático para
 O segundo projeto foca na criação de páginas essenciais para uma loja virtual, com requisitos de cadastro de clientes, meios de contato e vitrine de produtos.
 
 * **Objetivo:** Aprofundar em formulários HTML e estilização de componentes de interface para e-commerce.
-* **Acesse o projeto:** [./atividade.2/](./atividade.2/)
+* **Acesse o projeto:** [./atividade.2](/atividade.2)
 ![pagina incial da atividade 2](/assets/atv.2.png)
 
 ---
@@ -42,7 +42,7 @@ O segundo projeto foca na criação de páginas essenciais para uma loja virtual
 
 * **PAULO VICTOR ALMEIDA**
 
-* **Portifoli e curriculo virtual:** [https:///viquituor.github.io]
+* **Portifoli e curriculo virtual:** [https://viquituor.github.io]
 
 * **LinkedIn:** [https://www.linkedin.com/in/paulo-victor-almeida-de-oliveira-206a58206]
 
