@@ -1,13 +1,51 @@
-# CEPEDI - FRONT END
+# Projeto Front-End - Atividades do Curso CEFEPDI
 
-## ATIVIDADE - 1
+Bem-vindo(a) ao repositório das minhas atividades práticas do curso de desenvolvimento Front-End do CEFEPDI. Aqui, você encontrará os projetos desenvolvidos para aplicar os conhecimentos em HTML5 e CSS3.
 
-[PORTIFOLIO PESSOAL](/Atividade.1/)
+## 📂 Estrutura do Repositório
 
-![pagina inicial da ativdade 1](/assets/atv.1.png)
+O projeto está dividido em pastas, onde cada uma representa uma atividade específica do curso.
 
-## ATIVIDADE - 2
+---
 
-[LOJA - CADASTRO - FALE CONOSCO](/Atividade.2/)
+### 🚀 Atividade 1: Portfólio Pessoal
 
-![pagina inicial da ativdade 2](/assets/atv.2.png)
+O primeiro projeto consiste na criação de um portfólio pessoal estático para apresentar informações, projetos e formas de contato.
+
+* **Objetivo:** Praticar a estruturação semântica com HTML e a estilização com CSS, criando múltiplas páginas interligadas.
+* **Acesse o projeto:** [./atividade.1/](./atividade.1/README.md)
+![pagina incial da atividade 1](/assets/atv.1.png)
+
+---
+
+### 🛒 Atividade 2: Páginas de E-commerce (Loja)
+
+O segundo projeto foca na criação de páginas essenciais para uma loja virtual, com requisitos de cadastro de clientes, meios de contato e vitrine de produtos.
+
+* **Objetivo:** Aprofundar em formulários HTML e estilização de componentes de interface para e-commerce.
+* **Acesse o projeto:** [./atividade.2/](./atividade.2/README.md)
+![pagina incial da atividade 2](/assets/atv.2.png)
+
+---
+
+### 🔧 () Atividade 3: 
+
+*Em desenvolvimento...*
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+* **HTML5:** Para a estrutura e semântica do conteúdo.
+* **CSS3:** Para a estilização, layout e design responsivo.
+* **Editor:** Visual Studio Code
+
+## 👤 Autor
+
+* **PAULO VICTOR ALMEIDA**
+
+* **Portifoli e curriculo virtual:** [https:///viquituor.github.io]
+
+* **LinkedIn:** [https://www.linkedin.com/in/paulo-victor-almeida-de-oliveira-206a58206]
+
+* **GitHub:** [https://github.com/viquituor]
