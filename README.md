@@ -26,9 +26,23 @@ O segundo projeto foca na criação de páginas essenciais para uma loja virtual
 
 ---
 
-### 🔧 () Atividade 3
+### 🔧 Atividade 3: Desenvolvimento da pagina de produto
 
-*Em desenvolvimento...*
+O terceiro projeto foca no desenvolvimento da páginas de produtos da atividade anterior.
+
+* **Objetivo:** Aprofundar em formulários HTML e estilização de componentes de interface para e-commerce.
+* **Acesse o projeto:** [./atividade.2](/Atividade.3)
+![pagina incial da atividade 2](/assets/atv.3.png)
+
+### 🔧 Atividade 4: Desenvolvimento da pagina de produto
+
+O terceiro projeto foca no desenvolvimento da páginas de produtos da atividade anterior.
+
+* **Objetivo:** Aprofundar em formulários HTML e estilização de componentes de interface para e-commerce.
+* **Acesse o projeto:** [./atividade.2](/Atividade.2)
+![pagina incial da atividade 2](/assets/atv.2.png)
+
+---
 
 ---
 
