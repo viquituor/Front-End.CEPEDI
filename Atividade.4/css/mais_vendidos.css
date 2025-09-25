@@ -1,0 +1,63 @@
+.produtos__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+    section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 10px;
+        background-color: #ffc2f0;
+        color: #800761;
+        border: 1px solid #eee;
+        border-radius: 50px;
+        padding: 10px;
+        width: 400px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        img{
+            width: 80%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .titulo__produto{
+            font-size: 30px;
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+        }
+        .conteudo__vinil{
+            list-style: none; 
+            font-size: 15px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 30px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        em{
+            font-style: italic;
+            margin-bottom: 10px;
+
+        }
+        .SEM__JUROS{
+            font-size: 12px;;
+            margin-bottom: 10px;
+        }
+        .conferir{
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: yellowgreen;
+            color: #fff;
+        }
+    }
+}

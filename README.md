@@ -34,16 +34,15 @@ O terceiro projeto foca no desenvolvimento da páginas de produtos da atividade 
 * **Acesse o projeto:** [./atividade.2](/Atividade.3)
 ![pagina incial da atividade 2](/assets/atv.3.png)
 
-### 🔧 Atividade 4: Desenvolvimento da pagina de produto
+### 🔧 Atividade 4: Desenvolvimento da pagina de produto mais vendidos
 
-O terceiro projeto foca no desenvolvimento da páginas de produtos da atividade anterior.
+O quarto projeto foca no desenvolvimento de uma página de produtos mais vendidos da atividade anterior.
 
 * **Objetivo:** Aprofundar em formulários HTML e estilização de componentes de interface para e-commerce.
-* **Acesse o projeto:** [./atividade.2](/Atividade.2)
-![pagina incial da atividade 2](/assets/atv.2.png)
+* **Acesse o projeto:** [./atividade.2](/Atividade.4)
+![pagina incial da atividade 2](/assets/atv.4.png)
 
 ---
-
 ---
 
 ## 🛠️ Tecnologias Utilizadas
