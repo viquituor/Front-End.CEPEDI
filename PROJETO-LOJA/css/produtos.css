@@ -1,3 +1,12 @@
+body{
+    background-color: #535252;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
 main{
     padding: 50px;
     width: 100vw;
@@ -6,6 +15,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #535252;
     .produtos__container{
         Width: 90vw;
         display: flex;
@@ -25,7 +35,7 @@ main{
             background-color: #f0f0f0;
             
             img{
-                border: solid 5px #000000   ;
+                border: dotted 1px #fd1313   ;
                 max-width: 100%;
                 height: auto;
             }
@@ -45,7 +55,7 @@ main{
         
             .tipo__produto{
                 width: 40%;
-                background-color: #fdd625;
+                background-color: #0384b4;
                 padding: 10px 10px;
                 border-radius: 20px;
                 font-size: 15px;
@@ -123,6 +133,7 @@ main{
             &:hover{
                 cursor: pointer;
                 background-color: #535252;
+                border: solid 3px #fdd625;
                 transform: scale(1.1);
                 transition: all 0.3s ease;
                 .titulo__produto{
