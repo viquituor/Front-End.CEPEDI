@@ -35,6 +35,7 @@ main{
             flex-direction: column;
             gap: 15px;
             .titulo__produto{
+                font-family: var(--font-principal);
                 text-align: center;
                 font-size: 35px;
                 font-weight: bold;
