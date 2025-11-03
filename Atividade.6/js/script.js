@@ -46,8 +46,6 @@ camposDoFormulario.forEach((campo) => {
     campo.addEventListener("invalid", evento => evento.preventDefault());
 
     campo.addEventListener('blur', ()=> verificaCampo(campo));
-
-
 })
 
 

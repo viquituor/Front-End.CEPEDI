@@ -26,6 +26,8 @@ main{
     justify-content: center;
     align-items: center;
     text-align: center;
+
+    font-family: var(--font-principal);
 }
 form{
     width: 60vw;
@@ -33,39 +35,95 @@ form{
     background-color: var(--cor-primaria);
     border: solid 5px var(--cor-destaque);
     display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     border-radius: 40px;
-    input,select{
-        all: unset;
-        text-align: center;
-        color: var(--cor-tercearia);
-        font-size: 15px;
-        font-weight: 700;
+    label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 3px;
+        width: 20vw;
         font-family: var(--font-principal);
+        text-transform: uppercase;
+        background-color: var(--cor-destaque);
+        color: var(--cor-logo);
+        border-radius: 30px;
+        border: #ff0c0c 3px solid;
 
+        .senha-valida{
+            font-family: var(--font-principal);
+            text-align: left;
+            font-size: 10px;
+        }
+}
+    input{
+        all: unset;
+        height: 4vh;
+        background-color: var(--cor-quarternaia);
+        color: var(--cor-secundaria);
+        font-family: var(--font-principal);
+        font-weight: 600;
+        border-radius: 40px;
+        
+}
+    .label-nome, .label-email, .label-senha{
+        width: 40vw;
+}
+#senha, #nome, #email{
+        width: 39vw;
+}
+select{
+        all: unset;
         width: 20vw;
         height: 5vh;
-        border: solid 3px var(--cor-tercearia);
-        background-color: var(--cor-logo);
+        background-color: var(--cor-quarternaia);
+        color: var(--cor-logo);
+        font-family: var(--font-principal);
+        font-weight: 500;
         border-radius: 40px;
-
 }
-    #nome,#email{
-            border-radius: 40px 0 40px 0;
-            width: 40vw;
-            font-size: 15px;
-            text-align: left;
-            padding-left: 10px;
+
+.termos__input{
+    width: 15px;
+    height: 15px;
+    margin: 5px;
+    padding: 5px;
+    border: #ff0c0c 3px solid;
+
+    &:checked{
+        background-color: green;
+    }
+}
+.termos__texto{
+    color: var(--cor-tercearia);
+    font-size: 12px;
+    
+    width: 30vw;
+    margin-bottom: 10px;
 }
         button{
+            border: #72b5f0 3px solid;
             background-color: var(--cor-destaque);
+            color: var(--cor-quarternaia);
+            font-family: var(--font-principal);
+            font-size: 30px;
             border-radius: 40px;
             width: 20vw;
             height: 5vh;
         }
 
+        .txt-erro{
+            font-size: 15px;
+            font-family: var(--font-principal);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            color:orangered;
+        }
 }
 
 footer{

@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cadastro.css">
-    <script src="../js/script.js" defer></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/cadastro.css">
     <title>CADASTRO</title>
 </head>
 <body>
@@ -22,17 +21,50 @@
 
         <div>
             <form  action="GET">
-            <input type="text" id="nome" name="txtNome" maxlength="50" placeholder="Digite seu nome" required>
-            <input type="date" name="dataNascimento" id="dataNascimento" placeholder="data de nascimento" required>
-            <input type="text" name="cpf" id="cpf" placeholder="cpf" required>
-            <input type="email" id="email" name="email" placeholder="email" size="40" required>
-            <input type="password" id="senha" placeholder="senha">
+                <label class="label-nome" for="nome">
+                    nome
+            <input type="text" name="nome" id="nome" minlength="3"  required>
+            <span class="txt-erro"></span>
+                </label>
+                <label for="dataNascimento">
+                    data de nascimento
+            <input type="date" name="dataNascimento" id="dataNascimento"  required>
+            <span class="txt-erro"></span>
+                </label>
+                <label for="cpf">
+                    cpf
+            <input type="text" name="cpf" id="cpf" minlength="11" maxlength="14" pattern="\d{3}\.?\d{3}\.?\d{3}-?\d{2}" required>
+            <span class="txt-erro"></span>
+                </label>
+                <label class="label-email" for="email">
+                    email
+            <input type="email" id="email" name="email"  minlength="6" required>
+            <span class="txt-erro"></span>
+                </label>
+                <label class="label-senha" for="senha">
+                    senha <br> <br>
+                    <strong class="senha-valida"> 6 caracteres <br></strong>
+                    <strong class="senha-valida"> pelo menos um numero <br></strong>
+                    <strong class="senha-valida"> pelo menos um carctere especial, ! " # $ % & ( ) * + , - . </strong>
+            <input type="password" id="senha" name="senha" maxlength="6" minlength="6s" required>
+            <span class="txt-erro"></span>
+                </label>
+                
             <select title="produtoDesejado">
                 <option value="">selecione o produto que mais deseja</option>
                 <option value="CD">CD</option>
                 <option value="VINI">VINIL</option>
                 <option value="MERCH">MERCH</option>
             </select>
+
+                    
+            <input name="termos" class="termos__input" type="checkbox" required>
+            <p class="termos__texto">Li e estou ciente quanto às condições de tratamento dos meus dados conforme
+                        descrito na Política
+                        de
+                        Privacidade do banco.</p>
+            <span class="txt-erro"></span>
+
             <button type="submit">Cadastrar</button>
         </form>
         </div>
@@ -40,5 +72,6 @@
     <footer>
 
     </footer>
+    <script src="../js/script.js" type="module"></script>
 </body>
 </html>
