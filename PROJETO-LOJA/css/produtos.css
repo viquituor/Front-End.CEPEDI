@@ -135,7 +135,7 @@ main{
                 background-color: #535252;
                 border: solid 3px #fdd625;
                 transform: scale(1.1);
-                transition:  3s ease;
+                transition:  2s ease;
                 .titulo__produto{
                     color: red;
                     font-size: 40px;

@@ -9,18 +9,18 @@
 </head>
 <body>
     <header>
-        <a class="navegacao__logo" href="index.html">DISCO</a>
+        <a class="navegacao__logo" href="../index.html">DISCO</a>
         <nav>
-            <a class="ativo" href="index.html">PRODUTOS</a>
-            <a href="./pages/fale_comigo.html">FALE CONOSCO</a>
-            <a href="./pages/mais_vendidos.html">MAIS VENDIDOS</a>
-            <a class="login" href="./pages/cadastro.html">ENTRAR <hr><br><hr> CADASTRO</a>
+            <a   href="../index.html">PRODUTOS</a>
+            <a href="./fale_comigo.html">FALE CONOSCO</a>
+            <a href="./mais_vendidos.html">MAIS VENDIDOS</a>
+            <a class="ativo login" href="./cadastro.html">ENTRAR <hr><br><hr> CADASTRO</a>
        </nav>
     </header>
     <main>
 
         <div>
-            <form  action="GET">
+            <form action="GET">
                 <label class="label-nome" for="nome">
                     nome
             <input type="text" name="nome" id="nome" minlength="3"  required>
@@ -42,11 +42,12 @@
             <span class="txt-erro"></span>
                 </label>
                 <label class="label-senha" for="senha">
-                    senha <br> <br>
-                    <strong class="senha-valida"> 6 caracteres <br></strong>
-                    <strong class="senha-valida"> pelo menos um numero <br></strong>
-                    <strong class="senha-valida"> pelo menos um carctere especial, ! " # $ % & ( ) * + , - . </strong>
-            <input type="password" id="senha" name="senha" maxlength="6" minlength="6s" required>
+                    senha 
+                    
+            <input type="text" id="senha" name="senha" maxlength="6" minlength="6s" required>
+            <strong class="senha-valida"> 6 caracteres <br></strong>
+            <strong class="senha-valida"> pelo menos um numero <br></strong>
+             <strong class="senha-valida"> pelo menos um carctere especial <br> ! " # $ % & ( ) * + , - . </strong>
             <span class="txt-erro"></span>
                 </label>
                 
@@ -57,7 +58,6 @@
                 <option value="MERCH">MERCH</option>
             </select>
 
-                    
             <input name="termos" class="termos__input" type="checkbox" required>
             <p class="termos__texto">Li e estou ciente quanto às condições de tratamento dos meus dados conforme
                         descrito na Política

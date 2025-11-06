@@ -40,6 +40,7 @@ form{
     justify-content: center;
     align-items: center;
     border-radius: 40px;
+    gap: 5px;
     label{
         display: flex;
         flex-direction: column;
@@ -54,11 +55,7 @@ form{
         border-radius: 30px;
         border: #ff0c0c 3px solid;
 
-        .senha-valida{
-            font-family: var(--font-principal);
-            text-align: left;
-            font-size: 10px;
-        }
+
 }
     input{
         all: unset;
@@ -70,16 +67,26 @@ form{
         border-radius: 40px;
         
 }
-    .label-nome, .label-email, .label-senha{
+    .senha-valida{
+        display:contents;
+            font-family: var(--font-principal);
+            text-align: left;
+            font-size: 10px;
+    }
+     .label-nome, .label-email, .label-senha{
         width: 40vw;
 }
-#senha, #nome, #email{
+        
+ #nome, #email, #senha{
         width: 39vw;
 }
+
+
 select{
         all: unset;
-        width: 20vw;
-        height: 5vh;
+        width: 22vw;
+        height: 4vh;
+        text-align: centers;
         background-color: var(--cor-quarternaia);
         color: var(--cor-logo);
         font-family: var(--font-principal);
@@ -90,8 +97,7 @@ select{
 .termos__input{
     width: 15px;
     height: 15px;
-    margin: 5px;
-    padding: 5px;
+    background-color: var(--cor-secundaria);
     border: #ff0c0c 3px solid;
 
     &:checked{
@@ -100,20 +106,27 @@ select{
 }
 .termos__texto{
     color: var(--cor-tercearia);
-    font-size: 12px;
+    font-size: 15px;
     
     width: 30vw;
     margin-bottom: 10px;
 }
         button{
+            text-align: center;
             border: #72b5f0 3px solid;
             background-color: var(--cor-destaque);
-            color: var(--cor-quarternaia);
+            color: var(--cor-logo);
             font-family: var(--font-principal);
             font-size: 30px;
             border-radius: 40px;
             width: 20vw;
             height: 5vh;
+            transition: ease-in-out 1s;
+            &:hover{
+                border: green 3px solid;
+            background-color: var(--cor-destaque);
+            color: green;
+            }
         }
 
         .txt-erro{
@@ -122,7 +135,7 @@ select{
             font-weight: 600;
             text-transform: uppercase;
             letter-spacing: 3px;
-            color:orangered;
+            color:crimson;
         }
 }
 
