@@ -75,7 +75,10 @@ form{
     }
      .label-nome, .label-email, .label-senha{
         width: 40vw;
-}
+    }
+    .label-termos{
+        all: unset;
+    }
         
  #nome, #email, #senha{
         width: 39vw;
