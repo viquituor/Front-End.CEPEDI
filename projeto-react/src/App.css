@@ -11,32 +11,4 @@
   justify-content: left;
   gap: 25vw;
   align-items: center;
-
-
-  .opcoes {
-    display: flex;
-     gap: 30px;
-}
-.opcao{
-  transition: all 0.3s ease-in-out;
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  padding: 0 5px;
-  cursor: pointer;
-  &::hover{
-    color: #9b701a;
-    font-weight: 700;
-  }
-  
-}
-
-.icones {
-  list-style: none;
-    display: flex;
-    gap: 50px;
-}
 }
