@@ -1,0 +1,17 @@
+.icones{
+    display: flex;
+    gap: 50px;
+    }
+
+.icone{
+    list-style: none;
+      img{
+        width: 40px;
+        height: 40px;
+
+  &:hover{
+        transform: scale(1.2);
+        transition: 0.3s ease-in-out;
+        }
+        }
+ }

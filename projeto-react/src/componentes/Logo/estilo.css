@@ -1,16 +1,17 @@
 @keyframes looping {
   from {
     transform: rotate(0deg);
-  }
+}
   to {
     transform: rotate(360deg);
   }
 }
 
 .logo{
+  cursor:pointer;
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 20px;
   font-family: var(--font-principal);
   letter-spacing: 5px;
   font-size: 20px;

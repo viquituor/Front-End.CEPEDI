@@ -1,18 +1,11 @@
 import iconPerfil from '../../imagens/perfil.svg';
 import iconSacola from '../../imagens/sacola.svg';
 import './estilo.css';
-const textOpcoes = ['CATEGORIAS', 'MINHA ESTANTE', 'FAVORITOS'];
 const icons =  [iconPerfil, iconSacola];
 
-function Navegacao() {
+function icones() {
     return (
-        <div className='navegacao'>
-        <ul className='opcoes'>
-          {textOpcoes.map((opcao) => (
-            <li key={opcao} className="opcao">{opcao}</li>
-          ))}
-        </ul>
-
+    
         <ul className='icones'>
           {icons.map((icon) => (
             <li key={icon} className="icone">
@@ -20,7 +13,7 @@ function Navegacao() {
             </li>
           ))}
         </ul>
-        </div>
+
     )}
 
-    export default Navegacao;
+    export default icones;
