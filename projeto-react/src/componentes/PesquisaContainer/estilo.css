@@ -1,25 +1,26 @@
 input{
 border: 1px solid #FFF;
 background: transparent;
-border: 1px solid #FFF;
-padding: 20px 140px;
+padding: 0 20px;
 border-radius: 50px;
-width: 200px;
+width: 480px;
+height: 50px;
 color: #FFF;
 font-size: 16px;
-margin-bottom: 10px;
 }
 
 input [type="placeholder"]  {
  color: #FFF;
+ text-align: center;
  font-size: 16px;
 }
 
-section{
+.PesquisaContainer{
     background-image: linear-gradient(90deg, #002f52 35%, #326589 );
     color: #fff;
     text-align: center;
-    padding: 85px 0;
-    height: 270px;
+    padding: 10px 0;
+    height: 180px;
     width: 100%;
 }
+
