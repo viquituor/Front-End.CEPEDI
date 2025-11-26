@@ -1,6 +1,5 @@
 import './estilo.css'
 import Titulo from '../Titulo'
-import CardRecomenda from '../CardRecomenda'
 import UltimosLancamentosContainer from '../UltimosLancamentosContainer'
 import NovosLivrosContainer from '../NovosLivrosContainer'
 import {livros} from './dadosUltimoslancamentos'
