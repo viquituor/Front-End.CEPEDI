@@ -1,0 +1,13 @@
+.opcao{
+  transition: 0.3s ease-in-out;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  cursor: pointer;
+  color: #182979;
+  &:hover{
+    color: #e8ff80;
+  }
+   
+    }

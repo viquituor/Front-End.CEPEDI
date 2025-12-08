@@ -1,5 +1,4 @@
 import './App.css';
-import Header from './componentes/Header';
 import Pesquisa from './componentes/PesquisaContainer'
 import UltimosLancamentos from './componentes/UltimosLançamentos';
 import CardRecomenda from './componentes/CardRecomenda';
@@ -11,7 +10,7 @@ import livroRecomendado from './imagens/livro4.png'
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      
       <Pesquisa></Pesquisa>
       <UltimosLancamentos></UltimosLancamentos>
       <CardRecomenda 

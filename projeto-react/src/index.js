@@ -3,11 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import Favoritos from './componentes/rotas/favoritos';
+import Header from './componentes/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <BrowserRouter>
+      <Header></Header>
+        <Routes>
+          <Route path='/' element={<App />} />
+          <Route path="/favoritos" element={<Favoritos/>} />
+        </Routes>
+      </BrowserRouter>
   </React.StrictMode>
 );
 

@@ -6,7 +6,7 @@
     transform: rotate(360deg);
   }
 }
-
+  
 .logo{
   cursor:pointer;
   display: flex;
