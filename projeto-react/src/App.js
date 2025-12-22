@@ -15,7 +15,7 @@ function App() {
       <UltimosLancamentos></UltimosLancamentos>
       <CardRecomenda 
         titulo="Talvez voce se interesse por..."
-        subtiulo="Angular 11"
+        subtitulo="Angular 11"
         descrição="Construindo uma aplicação com a plataforma Google"
         img={livroRecomendado}
       ></CardRecomenda>

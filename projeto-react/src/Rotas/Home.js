@@ -1,7 +1,7 @@
 import './Home.css';
 import CardRecomenda from '../componentes/CardRecomenda';
 import Pesquisa from '../componentes/PesquisaContainer';
-import UltimosLancamentos from '../componentes/UltimosLancamentos';
+import UltimosLancamentos from '../componentes/UltimosLançamentos';
 import livroRecomendado from '../imagens/livro4.png';
 
 function Home() {

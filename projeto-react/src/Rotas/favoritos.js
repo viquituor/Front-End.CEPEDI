@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import './Home.css';
-import { getFavoritos } from '../Serviços/favoritos';
+import { getFavoritos } from '../Servicos/favoritos.js';
 import Titulo from '../componentes/Titulo';
 import Resultado from '../componentes/Resultado';
-import ResultadoContainer from '../componentes/ResultadoContainer';
+import ResultadoContainer from '../componentes/Resultado';
 import AppContainer from '../componentes/AppContainer';
 import livroImg from '../imagens/livro.png';
 import { deleteFavoritos } from '../Serviços/favoritos';

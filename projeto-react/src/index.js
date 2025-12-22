@@ -5,9 +5,9 @@ import Home from './Rotas/Home';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Favoritos from './Rotas/favoritos';
-import Categorias from './Rotas/categorias';
+import Categorias from './Rotas/categoria';
 import MinhaEstante from './Rotas/minhaEstante';
-import Header from './componentes/header';
+import Header from './componentes/Header';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
